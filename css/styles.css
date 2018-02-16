@@ -1,0 +1,133 @@
+body {
+ margin: 0;
+}
+
+/* Start of nav style */
+.main-nav {
+ height: 100px;
+ width: 100%;
+ background-color: #ccc;
+}
+
+.logo {
+ height: 95%;
+ border: 2px solid green;
+}
+
+.nav-list {
+ float: right;
+ list-style: none;
+}
+
+.nav-item {
+ float: left;
+ margin-right: 25px;
+ margin-top: 25px;
+}
+.nav-link {
+ color: green;
+ text-decoration: none;
+ font-size: 14pt;
+}
+
+/* End of nav styles */
+
+/* Start hero styles */
+.hero-section {
+ height: 500px;
+ background-image: url('../images/red_dragon.png');
+ background-size: 100% 100%;
+}
+
+.hero-text {
+ margin-top: 0px;
+ padding-top: 200px;
+ text-align: center;
+ color: #ffffff;
+}
+.text-background {
+ background-color: rgba(0, 0, 0, .5);
+ padding: 10px
+}
+ 
+/* End hero styles */
+
+/* Start column styles */
+.container {
+ height: 350px;
+ padding: 2.25%
+}
+
+.column {
+ height: 300px;
+ width: 30%;
+ border: 1px solid #000000;
+ float: left;
+ text-align: center;
+ margin-left: 2.25%;
+}
+
+.column-image {
+ width: 100%;
+ height: 115px;
+}
+/* End column styles */
+
+/* Start footer styles */
+.main-footer {
+ height: 150px;
+ border-top: 1px solid #000000;
+}
+
+.footer-section {
+ width: 33%;
+ border-right: 1px solid #000000;
+ float: left;
+ height: 100%;
+}
+
+.main-box {
+  height: 150px;
+  width: 150px;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+.circle-background {
+  background-color: green;
+  border-radius: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.center-text {
+  padding-top: 13px;
+  color: #fafafa;
+}
+
+.fa-github {
+ color: blue;
+}
+/*End footer styles */
